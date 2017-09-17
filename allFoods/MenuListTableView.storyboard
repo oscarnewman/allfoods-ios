@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="N5G-PI-XIJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSansRounded-500.otf">
+            <string>MuseoSansRounded-500</string>
+        </array>
+        <array key="MuseoSansRounded-700.otf">
+            <string>MuseoSansRounded-700</string>
+        </array>
+        <array key="MuseoSansRounded-900.otf">
+            <string>MuseoSansRounded-900</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--restaurantTV-->
+        <scene sceneID="vtm-KQ-Bk0">
+            <objects>
+                <tableViewController title="restaurantTV" id="N5G-PI-XIJ" customClass="RestaurantsTableViewController" customModule="allFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="142" sectionHeaderHeight="28" sectionFooterHeight="28" id="SXt-nt-ofo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="240" id="TG3-sO-11o" customClass="MenuItemTableViewCell" customModule="allFoods" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="240"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TG3-sO-11o" id="xKm-UE-JqO">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chinese" translatesAutoresizingMaskIntoConstraints="NO" id="5Uw-l7-xse">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greek Salad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQi-PY-cT1">
+                                            <rect key="frame" x="8" y="189.5" width="118.5" height="25.5"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-900" family="Museo Sans Rounded" pointSize="21"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5q6-Y9-qse">
+                                            <rect key="frame" x="8" y="215" width="26.5" height="14"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-500" family="Museo Sans Rounded" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marker" translatesAutoresizingMaskIntoConstraints="NO" id="lJ3-FX-lD9">
+                                            <rect key="frame" x="74.5" y="217" width="7" height="11"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="11" id="JNt-te-8f6"/>
+                                                <constraint firstAttribute="width" constant="7" id="dNt-gQ-HgO"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bajas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2P-6c-JNg">
+                                            <rect key="frame" x="38" y="215.5" width="28.5" height="14"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-700" family="Museo Sans Rounded" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.2 mi away" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQ3-LB-5wD">
+                                            <rect key="frame" x="86" y="215.5" width="65" height="14"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-500" family="Museo Sans Rounded" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WC1-Ev-Znu">
+                                            <rect key="frame" x="332" y="192" width="35" height="37.5"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-900" family="Museo Sans Rounded" pointSize="31"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="5q6-Y9-qse" firstAttribute="top" secondItem="5Uw-l7-xse" secondAttribute="bottom" constant="-25" id="1L8-46-6hh"/>
+                                        <constraint firstItem="CQ3-LB-5wD" firstAttribute="leading" secondItem="lJ3-FX-lD9" secondAttribute="trailing" constant="4.5" id="30v-EK-DXj"/>
+                                        <constraint firstItem="5q6-Y9-qse" firstAttribute="top" secondItem="IQi-PY-cT1" secondAttribute="bottom" id="3cO-7A-YXu"/>
+                                        <constraint firstItem="WC1-Ev-Znu" firstAttribute="top" secondItem="5Uw-l7-xse" secondAttribute="bottom" constant="-48" id="HAc-Rk-a1l"/>
+                                        <constraint firstItem="5Uw-l7-xse" firstAttribute="leading" secondItem="xKm-UE-JqO" secondAttribute="leading" id="Ja2-SA-fpf"/>
+                                        <constraint firstItem="5Uw-l7-xse" firstAttribute="top" secondItem="xKm-UE-JqO" secondAttribute="top" id="OaH-gN-ppJ"/>
+                                        <constraint firstItem="lJ3-FX-lD9" firstAttribute="centerY" secondItem="D2P-6c-JNg" secondAttribute="centerY" id="PsY-RF-N6j"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="WC1-Ev-Znu" secondAttribute="trailing" id="Rxl-j4-gxp"/>
+                                        <constraint firstItem="D2P-6c-JNg" firstAttribute="leading" secondItem="5q6-Y9-qse" secondAttribute="trailing" constant="3.5" id="VGr-vD-Koq"/>
+                                        <constraint firstItem="CQ3-LB-5wD" firstAttribute="baseline" secondItem="D2P-6c-JNg" secondAttribute="baseline" id="ZjA-on-pz9"/>
+                                        <constraint firstAttribute="trailing" secondItem="5Uw-l7-xse" secondAttribute="trailing" id="aBm-s6-zeo"/>
+                                        <constraint firstAttribute="bottom" secondItem="5Uw-l7-xse" secondAttribute="bottom" id="aut-xu-VSK"/>
+                                        <constraint firstItem="D2P-6c-JNg" firstAttribute="baseline" secondItem="5q6-Y9-qse" secondAttribute="baseline" id="b49-9Z-bYl"/>
+                                        <constraint firstItem="5q6-Y9-qse" firstAttribute="leading" secondItem="IQi-PY-cT1" secondAttribute="leading" id="bVL-e1-LAu"/>
+                                        <constraint firstItem="IQi-PY-cT1" firstAttribute="leading" secondItem="xKm-UE-JqO" secondAttribute="leadingMargin" id="kgx-vN-Rll"/>
+                                        <constraint firstItem="lJ3-FX-lD9" firstAttribute="leading" secondItem="D2P-6c-JNg" secondAttribute="trailing" constant="8" id="yd0-zJ-NEY"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="distanceLabel" destination="CQ3-LB-5wD" id="ojw-4W-Pqb"/>
+                                    <outlet property="foodImageView" destination="5Uw-l7-xse" id="dkK-08-stF"/>
+                                    <outlet property="nameLabel" destination="IQi-PY-cT1" id="lXo-Eb-QUc"/>
+                                    <outlet property="priceLabel" destination="WC1-Ev-Znu" id="ZJL-Qg-Y5B"/>
+                                    <outlet property="restaurantLabel" destination="D2P-6c-JNg" id="esp-G1-c4c"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="N5G-PI-XIJ" id="GPU-af-OaC"/>
+                            <outlet property="delegate" destination="N5G-PI-XIJ" id="v2s-Lm-ujK"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cs7-0f-fn5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="373.60000000000002" y="-212.74362818590706"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Marker" width="11" height="16"/>
+        <image name="chinese" width="4795" height="3197"/>
+    </resources>
+</document>

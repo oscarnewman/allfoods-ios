@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u00-Rh-Vde">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSansRounded-500.otf">
+            <string>MuseoSansRounded-500</string>
+        </array>
+        <array key="MuseoSansRounded-700.otf">
+            <string>MuseoSansRounded-700</string>
+        </array>
+        <array key="MuseoSansRounded-900.otf">
+            <string>MuseoSansRounded-900</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Item Detail Table View Controller-->
+        <scene sceneID="U8o-pT-Ux4">
+            <objects>
+                <tableViewController id="u00-Rh-Vde" customClass="ItemDetailTableViewController" customModule="allFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="E5K-wH-zy8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="240" id="xAk-sk-t6r" customClass="MenuItemTableViewCell" customModule="allFoods" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="240"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xAk-sk-t6r" id="AM9-55-Zt1">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chinese" translatesAutoresizingMaskIntoConstraints="NO" id="Xfo-dV-xfM">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greek Salad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AS-Wr-NVN" customClass="I">
+                                            <rect key="frame" x="8" y="190.5" width="115.5" height="24.5"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-900" family="Museo Sans Rounded" pointSize="21"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Wx-XA-KhD">
+                                            <rect key="frame" x="8" y="215" width="24.5" height="14"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-500" family="Museo Sans Rounded" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marker" translatesAutoresizingMaskIntoConstraints="NO" id="kF8-BF-O7u">
+                                            <rect key="frame" x="74" y="217" width="7" height="11"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="11" id="TnA-u6-56h"/>
+                                                <constraint firstAttribute="width" constant="7" id="xKF-YY-kWa"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bajas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkS-05-jYK">
+                                            <rect key="frame" x="36" y="215.5" width="30" height="14"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-700" family="Museo Sans Rounded" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.2 mi away" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clt-Da-36S">
+                                            <rect key="frame" x="85.5" y="215.5" width="65" height="14"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-500" family="Museo Sans Rounded" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9q-wi-5ON">
+                                            <rect key="frame" x="332" y="192" width="35" height="36.5"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-900" family="Museo Sans Rounded" pointSize="31"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="9Wx-XA-KhD" firstAttribute="leading" secondItem="5AS-Wr-NVN" secondAttribute="leading" id="0Uc-V8-K6L"/>
+                                        <constraint firstAttribute="bottom" secondItem="Xfo-dV-xfM" secondAttribute="bottom" id="0ia-4m-Iix"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="B9q-wi-5ON" secondAttribute="trailing" id="3qO-gi-e8q"/>
+                                        <constraint firstItem="kF8-BF-O7u" firstAttribute="centerY" secondItem="vkS-05-jYK" secondAttribute="centerY" id="E59-wi-w4o"/>
+                                        <constraint firstItem="kF8-BF-O7u" firstAttribute="leading" secondItem="vkS-05-jYK" secondAttribute="trailing" constant="8" id="ICH-ge-Kqc"/>
+                                        <constraint firstItem="clt-Da-36S" firstAttribute="leading" secondItem="kF8-BF-O7u" secondAttribute="trailing" constant="4.5" id="LZv-mu-qmz"/>
+                                        <constraint firstItem="B9q-wi-5ON" firstAttribute="top" secondItem="Xfo-dV-xfM" secondAttribute="bottom" constant="-48" id="aiV-VL-6Xu"/>
+                                        <constraint firstItem="vkS-05-jYK" firstAttribute="leading" secondItem="9Wx-XA-KhD" secondAttribute="trailing" constant="3.5" id="caz-ag-kWJ"/>
+                                        <constraint firstItem="Xfo-dV-xfM" firstAttribute="top" secondItem="AM9-55-Zt1" secondAttribute="top" id="ega-jB-Ch0"/>
+                                        <constraint firstItem="9Wx-XA-KhD" firstAttribute="top" secondItem="5AS-Wr-NVN" secondAttribute="bottom" id="gPT-6V-VwC"/>
+                                        <constraint firstItem="clt-Da-36S" firstAttribute="baseline" secondItem="vkS-05-jYK" secondAttribute="baseline" id="uOo-tD-Hc7"/>
+                                        <constraint firstItem="vkS-05-jYK" firstAttribute="baseline" secondItem="9Wx-XA-KhD" secondAttribute="baseline" id="uiH-F8-3su"/>
+                                        <constraint firstAttribute="trailing" secondItem="Xfo-dV-xfM" secondAttribute="trailing" id="wb6-ra-1UG"/>
+                                        <constraint firstItem="Xfo-dV-xfM" firstAttribute="leading" secondItem="AM9-55-Zt1" secondAttribute="leading" id="woO-Yf-wty"/>
+                                        <constraint firstItem="9Wx-XA-KhD" firstAttribute="top" secondItem="Xfo-dV-xfM" secondAttribute="bottom" constant="-25" id="xHi-RP-i6T"/>
+                                        <constraint firstItem="5AS-Wr-NVN" firstAttribute="leading" secondItem="AM9-55-Zt1" secondAttribute="leadingMargin" id="yz9-Sy-Q6K"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="distanceLabel" destination="clt-Da-36S" id="ehR-XI-5sU"/>
+                                    <outlet property="foodImageView" destination="Xfo-dV-xfM" id="wx9-zD-TTh"/>
+                                    <outlet property="nameLabel" destination="5AS-Wr-NVN" id="UWN-YG-TGs"/>
+                                    <outlet property="priceLabel" destination="B9q-wi-5ON" id="dJY-SX-vl0"/>
+                                    <outlet property="restaurantLabel" destination="vkS-05-jYK" id="bh6-XV-mRU"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="actionCell" id="gdW-Oi-P6b">
+                                <rect key="frame" x="0.0" y="268" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gdW-Oi-P6b" id="9fx-61-bsw">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to Bajas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daf-NZ-TdK">
+                                            <rect key="frame" x="132.5" y="9.5" width="110" height="24.5"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansRounded-700" family="Museo Sans Rounded" pointSize="21"/>
+                                            <color key="textColor" red="0.22352941176470587" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="daf-NZ-TdK" firstAttribute="centerX" secondItem="9fx-61-bsw" secondAttribute="centerX" id="2hL-hx-fck"/>
+                                        <constraint firstItem="daf-NZ-TdK" firstAttribute="centerY" secondItem="9fx-61-bsw" secondAttribute="centerY" id="u9Q-Lw-9Va"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.81176470590000005" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mapCell" rowHeight="190" id="uKl-sU-lXL">
+                                <rect key="frame" x="0.0" y="312" width="375" height="190"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uKl-sU-lXL" id="yxq-1W-D7X">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9xs-tu-Yt6">
+                                            <rect key="frame" x="0.0" y="28" width="375" height="134"/>
+                                        </mapView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="9xs-tu-Yt6" secondAttribute="trailing" id="E8a-UC-flN"/>
+                                        <constraint firstItem="9xs-tu-Yt6" firstAttribute="top" secondItem="yxq-1W-D7X" secondAttribute="topMargin" constant="20" id="NgX-Qi-yFO"/>
+                                        <constraint firstItem="9xs-tu-Yt6" firstAttribute="leading" secondItem="yxq-1W-D7X" secondAttribute="leading" id="WBs-nC-elh"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="9xs-tu-Yt6" secondAttribute="bottom" constant="20" id="Ygn-Dt-iZk"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="u00-Rh-Vde" id="Agw-t6-dps"/>
+                            <outlet property="delegate" destination="u00-Rh-Vde" id="2sD-MR-r0t"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6pu-RZ-jIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176.80000000000001" y="107.49625187406298"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Marker" width="11" height="16"/>
+        <image name="chinese" width="4795" height="3197"/>
+    </resources>
+</document>

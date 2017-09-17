@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018E1682A6010C92A210B4CB7A121FDF /* Magnetic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABA654AA05971102BBD46C4CDF2E9FB /* Magnetic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1470D91C18A4E4BED48761548B9377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2BB214A9CFE44C92CC55CDE0FC6826BC /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2973EF4D17BF48840BA2D807DAD956 /* MenuItemViewCustomizable.swift */; };
+		3CCE68C30D588374347219DF08D7D79B /* Pods-allFoodsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B65A28919E9A5276C7D55479001715 /* Pods-allFoodsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DBFA5146ABB5655231E2EDC8EA94917 /* PagingMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A3FEB9E6C9453516638B4324B5213D /* PagingMenuController-dummy.m */; };
+		48AFB18AC816315252144BDEE627BF46 /* SKMultilineLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DCD7FCEF6E86B23632A1529772D755 /* SKMultilineLabelNode.swift */; };
+		49413585BE22AEEBAFA809B511442832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4FB50E46B46FCF85D7F3D3159F1C9904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		57EBEC2C89EF1F76A9A9CC3B1533E1E8 /* Magnetic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB3921BDD18062EB7A15437F271627 /* Magnetic-dummy.m */; };
+		58917BC8E1610B47CE951F3D0F8EAC9E /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5C288FC5336AD6A4AD6A2DAC025C8 /* PagingMenuController.swift */; };
+		6149CEA68EFAC40C8A3AEA09621C99AA /* PagingMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BE6631F83FC30AB6627ECCE8786CBE /* PagingMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB20C105B6D8DB5FA51EBC228C44DBD /* Magnetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD991AEB7A510FF832683975BDA73069 /* Magnetic.swift */; };
+		6DE51C7806F321C18C9E0FE0DB0DCABC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5899ABCEDB530C8961AE34DD52BDA /* Extensions.swift */; };
+		6E5D6BEA1F90F2C2ABE3F31AF0950D44 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB128734C8328C379656A7E4DC0046 /* MenuItemView.swift */; };
+		846E5CA01F3D6EBCE45085A1D0B0C982 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BE1D1EBB6636FDDFB2417E5C45654 /* PagingViewController.swift */; };
+		85EC6CBEB45571171EDBD9E293623509 /* Pods-allFoods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2186D791C124C687492DF8BBA8339 /* Pods-allFoods-dummy.m */; };
+		957660A973E90928832154EBFD34ABD8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE3E96F64F1F0A09D6E9D92B48B109E /* MenuView.swift */; };
+		A28F81EE3A9A527CD0DCCC0275477095 /* Pods-allFoodsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2CDDA4B49F7BB78DC7B41D2BFE1DA /* Pods-allFoodsUITests-dummy.m */; };
+		A7D67162186709548E5BF09A8FD28644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AFD54A8EC84E109CD73007EFE54247DD /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907C913B40C62C3B97B94F463ECE086 /* PagingMenuControllerCustomizable.swift */; };
+		BDF893F95D3ADCD76B46BB4C72C647B8 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF7084C718663EDE44FEA72FD29CD9 /* MenuViewCustomizable.swift */; };
+		C4F165BC3C052A909071246584397C5A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1D855D9F0B71D7BE1D044CC1AE11C /* Node.swift */; };
+		DF3E0792A96A07FC0911D74A256BA784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA98CA3B22E2FE57EE465FEF4894B8B0 /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E9150010A5779C14D77B3F523037D /* Pagable.swift */; };
+		EC1845D270B26B32F3B4EE2179417D69 /* Pods-allFoodsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B91D10BFD4F8DFFF17A4FFF514725E03 /* Pods-allFoodsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF17B3CF0AEA19000172AB220ADECF2B /* Pods-allFoodsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659CBA4F7866C2E90E48CB2724F94820 /* Pods-allFoodsTests-dummy.m */; };
+		F3DE902DBE2294FFAB0BB78D0EE4AE9E /* Pods-allFoods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDF0A2A23E1EE58C28EABCE18E18C7A /* Pods-allFoods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F762C77EDE8A9017227183859B0F268A /* MagneticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D4D8AF2684CEEAB1FA36FC09B5D97 /* MagneticView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62DD08C19FC135C9B34F4F0B37EF2603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5748CBD6628E5BED81C1A3FF982B380B;
+			remoteInfo = Magnetic;
+		};
+		A0CAC4BC603A2FBE0C8D965E1302E558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADB3656BDFD85FB77E0CAB44BFF61E6;
+			remoteInfo = PagingMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BE6631F83FC30AB6627ECCE8786CBE /* PagingMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-umbrella.h"; sourceTree = "<group>"; };
+		01A3FEB9E6C9453516638B4324B5213D /* PagingMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingMenuController-dummy.m"; sourceTree = "<group>"; };
+		02463880747FD01D4866CD71B470FD64 /* Pods-allFoodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-allFoodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		08353D015631E661642E34B49B9DEA6F /* PagingMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-prefix.pch"; sourceTree = "<group>"; };
+		0BCF7084C718663EDE44FEA72FD29CD9 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewCustomizable.swift; path = Pod/Classes/Protocols/MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		1338F605E40D13C24204BD8053AF11BF /* Pods_allFoods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_allFoods.framework; path = "Pods-allFoods.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DB366AFACF49547DE736201EC73B1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B4EB776D06B37580B2B65503CFAC39 /* Pods-allFoodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-allFoodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		194BE1D1EBB6636FDDFB2417E5C45654 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Pod/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		1FE5899ABCEDB530C8961AE34DD52BDA /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		288B530BE6EEAC77C43011E7F2BD2922 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC2CDDA4B49F7BB78DC7B41D2BFE1DA /* Pods-allFoodsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-allFoodsUITests-dummy.m"; sourceTree = "<group>"; };
+		2EF5C288FC5336AD6A4AD6A2DAC025C8 /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuController.swift; path = Pod/Classes/PagingMenuController.swift; sourceTree = "<group>"; };
+		31075628810AFCBAE7E816DD851C4894 /* Pods_allFoodsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_allFoodsUITests.framework; path = "Pods-allFoodsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A326AFA973AE847EB7A52FA16E70FBF /* Pods-allFoodsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-allFoodsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3ECAF98026524381544FC65E8D30B881 /* Magnetic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnetic-prefix.pch"; sourceTree = "<group>"; };
+		3EE3E96F64F1F0A09D6E9D92B48B109E /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Pod/Classes/MenuView.swift; sourceTree = "<group>"; };
+		429C9613B869A06C3D25CDAC5620C5EF /* Magnetic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Magnetic.modulemap; sourceTree = "<group>"; };
+		44E35867E38262CFD33C5FE92FCE46DB /* Pods-allFoodsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-allFoodsTests-resources.sh"; sourceTree = "<group>"; };
+		484CB1FFFB9D96188ED42C96241C7021 /* Pods-allFoodsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-allFoodsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CC96158F6B9C0DF3E68E51D521973A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574F3C90EF3C2DF82D13DFAE8F2280B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6097E31A1AD9B5D1197ED2F6687DD58E /* Pods-allFoods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-allFoods-frameworks.sh"; sourceTree = "<group>"; };
+		63F2ECB7E02C4BBB314C2046ADF97801 /* Pods_allFoodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_allFoodsTests.framework; path = "Pods-allFoodsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659CBA4F7866C2E90E48CB2724F94820 /* Pods-allFoodsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-allFoodsTests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FE2186D791C124C687492DF8BBA8339 /* Pods-allFoods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-allFoods-dummy.m"; sourceTree = "<group>"; };
+		7102497FE06F5B80F2A5868F0E5B7D57 /* Pods-allFoods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-allFoods.modulemap"; sourceTree = "<group>"; };
+		73046B18634087132F4A4D096EBD4D39 /* Pods-allFoods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-allFoods-resources.sh"; sourceTree = "<group>"; };
+		81DCD7FCEF6E86B23632A1529772D755 /* SKMultilineLabelNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMultilineLabelNode.swift; path = Sources/SKMultilineLabelNode.swift; sourceTree = "<group>"; };
+		84747855FF45BD50EC14A08979C8D2E5 /* Pods-allFoodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-allFoodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		84B1D855D9F0B71D7BE1D044CC1AE11C /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		8ABA654AA05971102BBD46C4CDF2E9FB /* Magnetic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnetic-umbrella.h"; sourceTree = "<group>"; };
+		8B574FBCC471205A7C5B23A03E405078 /* Pods-allFoodsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-allFoodsUITests-resources.sh"; sourceTree = "<group>"; };
+		8BD059F8D869A41CA9695BD62B2849ED /* Pods-allFoodsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-allFoodsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91B65A28919E9A5276C7D55479001715 /* Pods-allFoodsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-allFoodsTests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C4E9150010A5779C14D77B3F523037D /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagable.swift; path = Pod/Classes/Protocols/Pagable.swift; sourceTree = "<group>"; };
+		9C95C549246900B7F81C88D4D001BF87 /* Pods-allFoods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-allFoods-acknowledgements.plist"; sourceTree = "<group>"; };
+		A118188798F4BBC207579C0AA246194C /* Magnetic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Magnetic.xcconfig; sourceTree = "<group>"; };
+		A62D4D8AF2684CEEAB1FA36FC09B5D97 /* MagneticView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagneticView.swift; path = Sources/MagneticView.swift; sourceTree = "<group>"; };
+		A800A92664F015D97B63D358027C5A3A /* Pods-allFoodsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-allFoodsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0A8CD18E33B713DEDFD0430B9766EF9 /* Pods-allFoods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-allFoods.debug.xcconfig"; sourceTree = "<group>"; };
+		B45FC71FAF6E82651349744D9E361B44 /* Pods-allFoods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-allFoods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B481B9A8C8C5BC1306CE085BCD98C6CC /* PagingMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagingMenuController.framework; path = PagingMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B583DBA72738D1F6D6EF7D2BBAB7B20F /* Pods-allFoodsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-allFoodsUITests.modulemap"; sourceTree = "<group>"; };
+		B651C8CD1E18C84FDE72AC3E62D86E45 /* Pods-allFoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-allFoods.release.xcconfig"; sourceTree = "<group>"; };
+		B775C49F483A6BCEFB571C482D895266 /* Pods-allFoodsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-allFoodsTests-frameworks.sh"; sourceTree = "<group>"; };
+		B907C913B40C62C3B97B94F463ECE086 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuControllerCustomizable.swift; path = Pod/Classes/Protocols/PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		B91D10BFD4F8DFFF17A4FFF514725E03 /* Pods-allFoodsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-allFoodsUITests-umbrella.h"; sourceTree = "<group>"; };
+		BAFB237768F0F47F5F8987136EC4773C /* Magnetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Magnetic.framework; path = Magnetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD991AEB7A510FF832683975BDA73069 /* Magnetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Magnetic.swift; path = Sources/Magnetic.swift; sourceTree = "<group>"; };
+		C5BB3921BDD18062EB7A15437F271627 /* Magnetic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Magnetic-dummy.m"; sourceTree = "<group>"; };
+		D085EBA074ED0874A839C2503ACAA204 /* Pods-allFoodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-allFoodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C3C6D751BA0AD5780D3C2A6A0272F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FB128734C8328C379656A7E4DC0046 /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Pod/Classes/MenuItemView.swift; sourceTree = "<group>"; };
+		D369954DB560AF2A4EE8FC1CFF6FE6D0 /* PagingMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingMenuController.xcconfig; sourceTree = "<group>"; };
+		DE2973EF4D17BF48840BA2D807DAD956 /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemViewCustomizable.swift; path = Pod/Classes/Protocols/MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		DFB7E28943B64CD2450FDF624C318797 /* Pods-allFoodsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-allFoodsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E416A48AB6DC1EDA3BB91F394B07DE2C /* Pods-allFoodsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-allFoodsTests.modulemap"; sourceTree = "<group>"; };
+		EBDF0A2A23E1EE58C28EABCE18E18C7A /* Pods-allFoods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-allFoods-umbrella.h"; sourceTree = "<group>"; };
+		FEAE1DBCC64C93C0689924A69E31C711 /* PagingMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PagingMenuController.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E7C3DF47D01DDC32E252295081A592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3E0792A96A07FC0911D74A256BA784 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2574C9F350D56F2E1DBB2F38F791E5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D67162186709548E5BF09A8FD28644 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1736D157FCECC8FCCE63B67E6E5F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49413585BE22AEEBAFA809B511442832 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4653856BB0D064009C052158F31CFE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB50E46B46FCF85D7F3D3159F1C9904 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB07E4ACD1C7523CF899C611DD00CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1470D91C18A4E4BED48761548B9377 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7B3CB62F114839FC902399460183CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C3C6D751BA0AD5780D3C2A6A0272F4 /* Info.plist */,
+				429C9613B869A06C3D25CDAC5620C5EF /* Magnetic.modulemap */,
+				A118188798F4BBC207579C0AA246194C /* Magnetic.xcconfig */,
+				C5BB3921BDD18062EB7A15437F271627 /* Magnetic-dummy.m */,
+				3ECAF98026524381544FC65E8D30B881 /* Magnetic-prefix.pch */,
+				8ABA654AA05971102BBD46C4CDF2E9FB /* Magnetic-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Magnetic";
+			sourceTree = "<group>";
+		};
+		2A79E307EEF02B55A71719DD0705336D /* Magnetic */ = {
+			isa = PBXGroup;
+			children = (
+				1FE5899ABCEDB530C8961AE34DD52BDA /* Extensions.swift */,
+				BD991AEB7A510FF832683975BDA73069 /* Magnetic.swift */,
+				A62D4D8AF2684CEEAB1FA36FC09B5D97 /* MagneticView.swift */,
+				84B1D855D9F0B71D7BE1D044CC1AE11C /* Node.swift */,
+				81DCD7FCEF6E86B23632A1529772D755 /* SKMultilineLabelNode.swift */,
+				0A7B3CB62F114839FC902399460183CE /* Support Files */,
+			);
+			name = Magnetic;
+			path = Magnetic;
+			sourceTree = "<group>";
+		};
+		2CDE5ABAE6B0221BC517961606EB5402 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC96158F6B9C0DF3E68E51D521973A1 /* Info.plist */,
+				FEAE1DBCC64C93C0689924A69E31C711 /* PagingMenuController.modulemap */,
+				D369954DB560AF2A4EE8FC1CFF6FE6D0 /* PagingMenuController.xcconfig */,
+				01A3FEB9E6C9453516638B4324B5213D /* PagingMenuController-dummy.m */,
+				08353D015631E661642E34B49B9DEA6F /* PagingMenuController-prefix.pch */,
+				00BE6631F83FC30AB6627ECCE8786CBE /* PagingMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PagingMenuController";
+			sourceTree = "<group>";
+		};
+		720BA09F2B166EDD864943C121261800 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5C68E3E57DB995472AFCD075E470A /* Pods-allFoods */,
+				CAF1F93CE9EDA9FFBFFA7651926E67D3 /* Pods-allFoodsTests */,
+				F178205D533274E16A4ACAC5920A90A0 /* Pods-allFoodsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DF5CEAB635799153DFE09A1DBB10E912 /* Pods */,
+				F2AD60CCE4D806D9AECA6C49E289B936 /* Products */,
+				720BA09F2B166EDD864943C121261800 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80B495DAA6CBFC2951C86504F9CD6050 /* PagingMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				D2FB128734C8328C379656A7E4DC0046 /* MenuItemView.swift */,
+				DE2973EF4D17BF48840BA2D807DAD956 /* MenuItemViewCustomizable.swift */,
+				3EE3E96F64F1F0A09D6E9D92B48B109E /* MenuView.swift */,
+				0BCF7084C718663EDE44FEA72FD29CD9 /* MenuViewCustomizable.swift */,
+				9C4E9150010A5779C14D77B3F523037D /* Pagable.swift */,
+				2EF5C288FC5336AD6A4AD6A2DAC025C8 /* PagingMenuController.swift */,
+				B907C913B40C62C3B97B94F463ECE086 /* PagingMenuControllerCustomizable.swift */,
+				194BE1D1EBB6636FDDFB2417E5C45654 /* PagingViewController.swift */,
+				2CDE5ABAE6B0221BC517961606EB5402 /* Support Files */,
+			);
+			name = PagingMenuController;
+			path = PagingMenuController;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF1F93CE9EDA9FFBFFA7651926E67D3 /* Pods-allFoodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				574F3C90EF3C2DF82D13DFAE8F2280B4 /* Info.plist */,
+				E416A48AB6DC1EDA3BB91F394B07DE2C /* Pods-allFoodsTests.modulemap */,
+				8BD059F8D869A41CA9695BD62B2849ED /* Pods-allFoodsTests-acknowledgements.markdown */,
+				A800A92664F015D97B63D358027C5A3A /* Pods-allFoodsTests-acknowledgements.plist */,
+				659CBA4F7866C2E90E48CB2724F94820 /* Pods-allFoodsTests-dummy.m */,
+				B775C49F483A6BCEFB571C482D895266 /* Pods-allFoodsTests-frameworks.sh */,
+				44E35867E38262CFD33C5FE92FCE46DB /* Pods-allFoodsTests-resources.sh */,
+				91B65A28919E9A5276C7D55479001715 /* Pods-allFoodsTests-umbrella.h */,
+				D085EBA074ED0874A839C2503ACAA204 /* Pods-allFoodsTests.debug.xcconfig */,
+				84747855FF45BD50EC14A08979C8D2E5 /* Pods-allFoodsTests.release.xcconfig */,
+			);
+			name = "Pods-allFoodsTests";
+			path = "Target Support Files/Pods-allFoodsTests";
+			sourceTree = "<group>";
+		};
+		D1A5C68E3E57DB995472AFCD075E470A /* Pods-allFoods */ = {
+			isa = PBXGroup;
+			children = (
+				14DB366AFACF49547DE736201EC73B1A /* Info.plist */,
+				7102497FE06F5B80F2A5868F0E5B7D57 /* Pods-allFoods.modulemap */,
+				B45FC71FAF6E82651349744D9E361B44 /* Pods-allFoods-acknowledgements.markdown */,
+				9C95C549246900B7F81C88D4D001BF87 /* Pods-allFoods-acknowledgements.plist */,
+				6FE2186D791C124C687492DF8BBA8339 /* Pods-allFoods-dummy.m */,
+				6097E31A1AD9B5D1197ED2F6687DD58E /* Pods-allFoods-frameworks.sh */,
+				73046B18634087132F4A4D096EBD4D39 /* Pods-allFoods-resources.sh */,
+				EBDF0A2A23E1EE58C28EABCE18E18C7A /* Pods-allFoods-umbrella.h */,
+				B0A8CD18E33B713DEDFD0430B9766EF9 /* Pods-allFoods.debug.xcconfig */,
+				B651C8CD1E18C84FDE72AC3E62D86E45 /* Pods-allFoods.release.xcconfig */,
+			);
+			name = "Pods-allFoods";
+			path = "Target Support Files/Pods-allFoods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF5CEAB635799153DFE09A1DBB10E912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A79E307EEF02B55A71719DD0705336D /* Magnetic */,
+				80B495DAA6CBFC2951C86504F9CD6050 /* PagingMenuController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F178205D533274E16A4ACAC5920A90A0 /* Pods-allFoodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				288B530BE6EEAC77C43011E7F2BD2922 /* Info.plist */,
+				B583DBA72738D1F6D6EF7D2BBAB7B20F /* Pods-allFoodsUITests.modulemap */,
+				484CB1FFFB9D96188ED42C96241C7021 /* Pods-allFoodsUITests-acknowledgements.markdown */,
+				DFB7E28943B64CD2450FDF624C318797 /* Pods-allFoodsUITests-acknowledgements.plist */,
+				2DC2CDDA4B49F7BB78DC7B41D2BFE1DA /* Pods-allFoodsUITests-dummy.m */,
+				3A326AFA973AE847EB7A52FA16E70FBF /* Pods-allFoodsUITests-frameworks.sh */,
+				8B574FBCC471205A7C5B23A03E405078 /* Pods-allFoodsUITests-resources.sh */,
+				B91D10BFD4F8DFFF17A4FFF514725E03 /* Pods-allFoodsUITests-umbrella.h */,
+				18B4EB776D06B37580B2B65503CFAC39 /* Pods-allFoodsUITests.debug.xcconfig */,
+				02463880747FD01D4866CD71B470FD64 /* Pods-allFoodsUITests.release.xcconfig */,
+			);
+			name = "Pods-allFoodsUITests";
+			path = "Target Support Files/Pods-allFoodsUITests";
+			sourceTree = "<group>";
+		};
+		F2AD60CCE4D806D9AECA6C49E289B936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAFB237768F0F47F5F8987136EC4773C /* Magnetic.framework */,
+				B481B9A8C8C5BC1306CE085BCD98C6CC /* PagingMenuController.framework */,
+				1338F605E40D13C24204BD8053AF11BF /* Pods_allFoods.framework */,
+				63F2ECB7E02C4BBB314C2046ADF97801 /* Pods_allFoodsTests.framework */,
+				31075628810AFCBAE7E816DD851C4894 /* Pods_allFoodsUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47ABBFE2B72DB061163B55C26BBFB34E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1845D270B26B32F3B4EE2179417D69 /* Pods-allFoodsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D7153F84BE28B1F7E66796416818AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCE68C30D588374347219DF08D7D79B /* Pods-allFoodsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754DCC84B90C37485656B7E38FCC1EE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DE902DBE2294FFAB0BB78D0EE4AE9E /* Pods-allFoods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E05EFB88617ACF718FFDED868467A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018E1682A6010C92A210B4CB7A121FDF /* Magnetic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C302DBC5B51659D06BBA33D41FB129 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6149CEA68EFAC40C8A3AEA09621C99AA /* PagingMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		536EECDA02CCC7B1EBFC33030FC6DD89 /* Pods-allFoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BAB6190A491CA7151B954623175AFE /* Build configuration list for PBXNativeTarget "Pods-allFoods" */;
+			buildPhases = (
+				C5E9604EF71243B27ABC9BDFD6AB8229 /* Sources */,
+				5C1736D157FCECC8FCCE63B67E6E5F1C /* Frameworks */,
+				754DCC84B90C37485656B7E38FCC1EE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB6F174D6F40C94D39119E1B2F14476 /* PBXTargetDependency */,
+				201C61F809F8F66B318C9FA150A73795 /* PBXTargetDependency */,
+			);
+			name = "Pods-allFoods";
+			productName = "Pods-allFoods";
+			productReference = 1338F605E40D13C24204BD8053AF11BF /* Pods_allFoods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5748CBD6628E5BED81C1A3FF982B380B /* Magnetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F903488F349D9681C97A130594A23D /* Build configuration list for PBXNativeTarget "Magnetic" */;
+			buildPhases = (
+				2D4268DCE1F16FB145FF402298FE56B3 /* Sources */,
+				2574C9F350D56F2E1DBB2F38F791E5AA /* Frameworks */,
+				8E5E05EFB88617ACF718FFDED868467A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnetic;
+			productName = Magnetic;
+			productReference = BAFB237768F0F47F5F8987136EC4773C /* Magnetic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60B06FCC484B8A2769799DA7819A7F98 /* Pods-allFoodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBB74A43767958A31237BA398CF203C /* Build configuration list for PBXNativeTarget "Pods-allFoodsTests" */;
+			buildPhases = (
+				6150ED69EA29AB7A56C60370FD871921 /* Sources */,
+				C4653856BB0D064009C052158F31CFE8 /* Frameworks */,
+				54D7153F84BE28B1F7E66796416818AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-allFoodsTests";
+			productName = "Pods-allFoodsTests";
+			productReference = 63F2ECB7E02C4BBB314C2046ADF97801 /* Pods_allFoodsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974BAC4FE33349DBFEA2FDAE7D508C0A /* Build configuration list for PBXNativeTarget "PagingMenuController" */;
+			buildPhases = (
+				934C8100011617FC9736BF48C821CFDD /* Sources */,
+				03E7C3DF47D01DDC32E252295081A592 /* Frameworks */,
+				B5C302DBC5B51659D06BBA33D41FB129 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagingMenuController;
+			productName = PagingMenuController;
+			productReference = B481B9A8C8C5BC1306CE085BCD98C6CC /* PagingMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7E4F6725DF658D0EF0A00FA102B6C46 /* Pods-allFoodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C301735C08D228EB53E637F35C8B4C5A /* Build configuration list for PBXNativeTarget "Pods-allFoodsUITests" */;
+			buildPhases = (
+				D1616159A9A4D837EE24707F058E6954 /* Sources */,
+				FDB07E4ACD1C7523CF899C611DD00CE6 /* Frameworks */,
+				47ABBFE2B72DB061163B55C26BBFB34E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-allFoodsUITests";
+			productName = "Pods-allFoodsUITests";
+			productReference = 31075628810AFCBAE7E816DD851C4894 /* Pods_allFoodsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F2AD60CCE4D806D9AECA6C49E289B936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5748CBD6628E5BED81C1A3FF982B380B /* Magnetic */,
+				6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */,
+				536EECDA02CCC7B1EBFC33030FC6DD89 /* Pods-allFoods */,
+				60B06FCC484B8A2769799DA7819A7F98 /* Pods-allFoodsTests */,
+				E7E4F6725DF658D0EF0A00FA102B6C46 /* Pods-allFoodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4268DCE1F16FB145FF402298FE56B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE51C7806F321C18C9E0FE0DB0DCABC /* Extensions.swift in Sources */,
+				57EBEC2C89EF1F76A9A9CC3B1533E1E8 /* Magnetic-dummy.m in Sources */,
+				6CB20C105B6D8DB5FA51EBC228C44DBD /* Magnetic.swift in Sources */,
+				F762C77EDE8A9017227183859B0F268A /* MagneticView.swift in Sources */,
+				C4F165BC3C052A909071246584397C5A /* Node.swift in Sources */,
+				48AFB18AC816315252144BDEE627BF46 /* SKMultilineLabelNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6150ED69EA29AB7A56C60370FD871921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF17B3CF0AEA19000172AB220ADECF2B /* Pods-allFoodsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934C8100011617FC9736BF48C821CFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5D6BEA1F90F2C2ABE3F31AF0950D44 /* MenuItemView.swift in Sources */,
+				2BB214A9CFE44C92CC55CDE0FC6826BC /* MenuItemViewCustomizable.swift in Sources */,
+				957660A973E90928832154EBFD34ABD8 /* MenuView.swift in Sources */,
+				BDF893F95D3ADCD76B46BB4C72C647B8 /* MenuViewCustomizable.swift in Sources */,
+				EA98CA3B22E2FE57EE465FEF4894B8B0 /* Pagable.swift in Sources */,
+				3DBFA5146ABB5655231E2EDC8EA94917 /* PagingMenuController-dummy.m in Sources */,
+				58917BC8E1610B47CE951F3D0F8EAC9E /* PagingMenuController.swift in Sources */,
+				AFD54A8EC84E109CD73007EFE54247DD /* PagingMenuControllerCustomizable.swift in Sources */,
+				846E5CA01F3D6EBCE45085A1D0B0C982 /* PagingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E9604EF71243B27ABC9BDFD6AB8229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC6CBEB45571171EDBD9E293623509 /* Pods-allFoods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1616159A9A4D837EE24707F058E6954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F81EE3A9A527CD0DCCC0275477095 /* Pods-allFoodsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201C61F809F8F66B318C9FA150A73795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagingMenuController;
+			target = 6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */;
+			targetProxy = A0CAC4BC603A2FBE0C8D965E1302E558 /* PBXContainerItemProxy */;
+		};
+		ECB6F174D6F40C94D39119E1B2F14476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Magnetic;
+			target = 5748CBD6628E5BED81C1A3FF982B380B /* Magnetic */;
+			targetProxy = 62DD08C19FC135C9B34F4F0B37EF2603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B4E1ECB4A175EAC6D1BFC7E0E199BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84747855FF45BD50EC14A08979C8D2E5 /* Pods-allFoodsTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-allFoodsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-allFoodsTests/Pods-allFoodsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_allFoodsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FD4F72508F5CED96A77B6D52C19E288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02463880747FD01D4866CD71B470FD64 /* Pods-allFoodsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-allFoodsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-allFoodsUITests/Pods-allFoodsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_allFoodsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		676CF196CAB5F3763C900DF1B4C37AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B651C8CD1E18C84FDE72AC3E62D86E45 /* Pods-allFoods.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-allFoods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-allFoods/Pods-allFoods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_allFoods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85DABAE1855DA6BF56B9B9F8A17CD9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D085EBA074ED0874A839C2503ACAA204 /* Pods-allFoodsTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-allFoodsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-allFoodsTests/Pods-allFoodsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_allFoodsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BB408D6B377D6E8609E77308534E8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A8CD18E33B713DEDFD0430B9766EF9 /* Pods-allFoods.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-allFoods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-allFoods/Pods-allFoods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_allFoods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9357DBCE953DDB990BD28485082DC37B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A118188798F4BBC207579C0AA246194C /* Magnetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Magnetic/Magnetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnetic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Magnetic/Magnetic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Magnetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D7095F8003EB29E6034F3CB3F17650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A118188798F4BBC207579C0AA246194C /* Magnetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Magnetic/Magnetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnetic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Magnetic/Magnetic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Magnetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9972373F4356BB407AB7300F8FF6CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D369954DB560AF2A4EE8FC1CFF6FE6D0 /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB62F899BF2152B86DD54487C47992CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D369954DB560AF2A4EE8FC1CFF6FE6D0 /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD12780278CBE90155A3EC326830E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B4EB776D06B37580B2B65503CFAC39 /* Pods-allFoodsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-allFoodsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-allFoodsUITests/Pods-allFoodsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_allFoodsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBB74A43767958A31237BA398CF203C /* Build configuration list for PBXNativeTarget "Pods-allFoodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DABAE1855DA6BF56B9B9F8A17CD9ED /* Debug */,
+				2B4E1ECB4A175EAC6D1BFC7E0E199BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BAB6190A491CA7151B954623175AFE /* Build configuration list for PBXNativeTarget "Pods-allFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB408D6B377D6E8609E77308534E8E7 /* Debug */,
+				676CF196CAB5F3763C900DF1B4C37AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974BAC4FE33349DBFEA2FDAE7D508C0A /* Build configuration list for PBXNativeTarget "PagingMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB62F899BF2152B86DD54487C47992CD /* Debug */,
+				C9972373F4356BB407AB7300F8FF6CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C301735C08D228EB53E637F35C8B4C5A /* Build configuration list for PBXNativeTarget "Pods-allFoodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD12780278CBE90155A3EC326830E054 /* Debug */,
+				3FD4F72508F5CED96A77B6D52C19E288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F903488F349D9681C97A130594A23D /* Build configuration list for PBXNativeTarget "Magnetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D7095F8003EB29E6034F3CB3F17650 /* Debug */,
+				9357DBCE953DDB990BD28485082DC37B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
